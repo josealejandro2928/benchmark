@@ -1,0 +1,20 @@
+Test performed on: Tue Feb 07 2023 16:01:27 GMT+0100 (Central European Standard Time)
+library: koa.js
+command: autocannon,[object Object]
+
+{
+  "latency": {
+    "average": "69.41 ms",
+    "mean": "69.41 ms",
+    "stddev": "8.52 ms",
+    "min": "64 ms",
+    "max": "189 ms"
+  },
+  "requests": {
+    "average": "14270.19 #/seg",
+    "mean": "14270.19 #/seg",
+    "stddev": "1124.89 #/seg",
+    "min": "10751 #/seg",
+    "max": "14893 #/seg"
+  }
+}

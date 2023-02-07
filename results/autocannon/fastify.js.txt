@@ -1,0 +1,20 @@
+Test performed on: Tue Feb 07 2023 16:00:06 GMT+0100 (Central European Standard Time)
+library: fastify.js
+command: autocannon,[object Object]
+
+{
+  "latency": {
+    "average": "34.73 ms",
+    "mean": "34.73 ms",
+    "stddev": "12.8 ms",
+    "min": "19 ms",
+    "max": "141 ms"
+  },
+  "requests": {
+    "average": "28357.1 #/seg",
+    "mean": "28357.1 #/seg",
+    "stddev": "2141.86 #/seg",
+    "min": "22536 #/seg",
+    "max": "29842 #/seg"
+  }
+}

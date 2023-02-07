@@ -1,0 +1,20 @@
+Test performed on: Tue Feb 07 2023 15:59:20 GMT+0100 (Central European Standard Time)
+library: express.js
+command: autocannon,[object Object]
+
+{
+  "latency": {
+    "average": "89.36 ms",
+    "mean": "89.36 ms",
+    "stddev": "9.04 ms",
+    "min": "69 ms",
+    "max": "211 ms"
+  },
+  "requests": {
+    "average": "11090.55 #/seg",
+    "mean": "11090.55 #/seg",
+    "stddev": "811.59 #/seg",
+    "min": "8541 #/seg",
+    "max": "11481 #/seg"
+  }
+}
