@@ -7,19 +7,19 @@ const port = 3000;
 ////////// Generate a lot of random routes ///////////////
 for (let i = 0; i < 100; i++) {
     app.get(generateRouteRandom("api", 3), (req, res) => {
-        return res.json({ hello: 'world' });
+        return { hello: 'world' }
     })
 }
 
 for (let i = 0; i < 100; i++) {
     app.get(generateRouteRandom("home", 3), (req, res) => {
-        return res.json({ hello: 'world' });
+        return { hello: 'world' }
     })
 }
 //////////////////////////////////////////////////////////
 
 app.get("/", (req, res) => {
-    return res.json({ hello: 'world' });
+    return { hello: 'world' };
 })
 
 app.listen({ port: port }, () => {

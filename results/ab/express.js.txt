@@ -1,4 +1,4 @@
-Test performed on: Tue Feb 07 2023 14:59:00 GMT+0100 (Central European Standard Time)
+Test performed on: Thu Feb 09 2023 09:18:39 GMT+0100 (Central European Standard Time)
 library: express.js
 command: ab,-c 500,-n 10000,http://127.0.0.1:3000/
 
@@ -17,30 +17,30 @@ Document Path:          /
 Document Length:        17 bytes
 
 Concurrency Level:      500
-Time taken for tests:   1.850 seconds
+Time taken for tests:   1.826 seconds
 Complete requests:      10000
 Failed requests:        0
 Total transferred:      1590000 bytes
 HTML transferred:       170000 bytes
-Requests per second:    5405.88 [#/sec] (mean)
-Time per request:       92.492 [ms] (mean)
-Time per request:       0.185 [ms] (mean, across all concurrent requests)
-Transfer rate:          839.39 [Kbytes/sec] received
+Requests per second:    5475.18 [#/sec] (mean)
+Time per request:       91.321 [ms] (mean)
+Time per request:       0.183 [ms] (mean, across all concurrent requests)
+Transfer rate:          850.15 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    3   2.4      3      12
-Processing:    16   87  39.8     75     251
-Waiting:        6   62  33.2     58     235
-Total:         17   91  40.8     77     256
+Connect:        0    4   2.5      3      13
+Processing:    21   86  40.0     74     257
+Waiting:        8   60  35.3     56     241
+Total:         21   90  41.3     77     262
 
 Percentage of the requests served within a certain time (ms)
   50%     77
-  66%     81
-  75%     90
-  80%    100
-  90%    123
-  95%    250
-  98%    254
-  99%    255
- 100%    256 (longest request)
+  66%     80
+  75%     88
+  80%     98
+  90%    110
+  95%    259
+  98%    261
+  99%    261
+ 100%    262 (longest request)

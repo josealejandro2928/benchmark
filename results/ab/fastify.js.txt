@@ -1,4 +1,4 @@
-Test performed on: Tue Feb 07 2023 16:20:37 GMT+0100 (Central European Standard Time)
+Test performed on: Thu Feb 09 2023 09:19:07 GMT+0100 (Central European Standard Time)
 library: fastify.js
 command: ab,-c 500,-n 10000,http://127.0.0.1:3000/
 
@@ -14,34 +14,33 @@ Server Hostname:        127.0.0.1
 Server Port:            3000
 
 Document Path:          /
-Document Length:        89 bytes
+Document Length:        17 bytes
 
 Concurrency Level:      500
-Time taken for tests:   1.780 seconds
+Time taken for tests:   0.831 seconds
 Complete requests:      10000
 Failed requests:        0
-Non-2xx responses:      10000
-Total transferred:      2500000 bytes
-HTML transferred:       890000 bytes
-Requests per second:    5619.19 [#/sec] (mean)
-Time per request:       88.981 [ms] (mean)
-Time per request:       0.178 [ms] (mean, across all concurrent requests)
-Transfer rate:          1371.87 [Kbytes/sec] received
+Total transferred:      1590000 bytes
+HTML transferred:       170000 bytes
+Requests per second:    12037.94 [#/sec] (mean)
+Time per request:       41.535 [ms] (mean)
+Time per request:       0.083 [ms] (mean, across all concurrent requests)
+Transfer rate:          1869.17 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    5   3.8      4      17
-Processing:    23   82  50.2     66     299
-Waiting:        6   55  43.1     46     274
-Total:         23   87  52.5     70     309
+Connect:        0    4   2.3      4      10
+Processing:     7   37  37.8     25     201
+Waiting:        4   24  33.7     15     186
+Total:         14   41  38.2     28     204
 
 Percentage of the requests served within a certain time (ms)
-  50%     70
-  66%     77
-  75%     96
-  80%     97
-  90%    111
-  95%    301
-  98%    305
-  99%    307
- 100%    309 (longest request)
+  50%     28
+  66%     31
+  75%     38
+  80%     46
+  90%     57
+  95%    199
+  98%    202
+  99%    203
+ 100%    204 (longest request)

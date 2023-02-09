@@ -1,4 +1,4 @@
-Test performed on: Tue Feb 07 2023 14:59:14 GMT+0100 (Central European Standard Time)
+Test performed on: Thu Feb 09 2023 09:20:27 GMT+0100 (Central European Standard Time)
 library: koa.js
 command: ab,-c 500,-n 10000,http://127.0.0.1:3000/
 
@@ -17,30 +17,30 @@ Document Path:          /
 Document Length:        17 bytes
 
 Concurrency Level:      500
-Time taken for tests:   1.764 seconds
+Time taken for tests:   1.652 seconds
 Complete requests:      10000
 Failed requests:        0
 Total transferred:      1590000 bytes
 HTML transferred:       170000 bytes
-Requests per second:    5667.62 [#/sec] (mean)
-Time per request:       88.220 [ms] (mean)
-Time per request:       0.176 [ms] (mean, across all concurrent requests)
-Transfer rate:          880.03 [Kbytes/sec] received
+Requests per second:    6053.44 [#/sec] (mean)
+Time per request:       82.598 [ms] (mean)
+Time per request:       0.165 [ms] (mean, across all concurrent requests)
+Transfer rate:          939.94 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    4   3.3      3      17
-Processing:    21   82  47.6     68     287
-Waiting:        8   56  42.0     51     270
-Total:         21   86  48.4     70     290
+Connect:        0    3   2.3      3      12
+Processing:    17   78  41.3     65     260
+Waiting:        9   54  34.0     49     233
+Total:         17   81  42.1     67     263
 
 Percentage of the requests served within a certain time (ms)
-  50%     70
-  66%     80
-  75%     96
-  80%     97
-  90%    101
-  95%    286
-  98%    288
-  99%    289
- 100%    290 (longest request)
+  50%     67
+  66%     70
+  75%     80
+  80%     85
+  90%    108
+  95%    246
+  98%    256
+  99%    260
+ 100%    263 (longest request)
