@@ -1,20 +1,20 @@
-Test performed on: Tue Feb 07 2023 15:58:49 GMT+0100 (Central European Standard Time)
+Test performed on: Fri Feb 10 2023 19:21:12 GMT+0100 (Central European Standard Time)
 library: mini-express-server.js
 command: autocannon,[object Object]
 
 {
   "latency": {
-    "average": "22.06 ms",
-    "mean": "22.06 ms",
-    "stddev": "8.57 ms",
-    "min": "6 ms",
-    "max": "119 ms"
+    "average": "27.42 ms",
+    "mean": "27.42 ms",
+    "stddev": "10.72 ms",
+    "min": "12 ms",
+    "max": "122 ms"
   },
   "requests": {
-    "average": "44306.91 #/seg",
-    "mean": "44306.91 #/seg",
-    "stddev": "2199.77 #/seg",
-    "min": "37746 #/seg",
-    "max": "46353 #/seg"
+    "average": "35789.82 #/seg",
+    "mean": "35789.82 #/seg",
+    "stddev": "2847.02 #/seg",
+    "min": "26835 #/seg",
+    "max": "37004 #/seg"
   }
 }

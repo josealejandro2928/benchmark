@@ -21,6 +21,6 @@
     "fastify": "^4.12.0",
     "koa": "^2.14.1",
     "koa-router": "^12.0.0",
-    "mini-express-server": "^1.0.9"
+    "mini-express-server": "file:../mini-express-server-1.1.1.tgz"
   }
 }

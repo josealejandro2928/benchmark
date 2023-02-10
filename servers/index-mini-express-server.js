@@ -22,6 +22,6 @@ app.get("/", (req, res) => {
     return res.json({ hello: 'world' });
 })
 
-app.listen(port, () => {
-    console.log("Server created by library: mini-express-server is listening on port:", port)
+app.listen(port, (address) => {
+    console.log("Server created by library: mini-express-server is listening on port:", address)
 })

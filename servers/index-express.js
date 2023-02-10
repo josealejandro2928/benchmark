@@ -25,6 +25,6 @@ app.get("/", (req, res) => {
     return res.json({ hello: 'world' });
 })
 
-app.listen(port, () => {
+app.listen(port, (address) => {
     console.log("Server created by library: express is listening on port:", port)
 })
